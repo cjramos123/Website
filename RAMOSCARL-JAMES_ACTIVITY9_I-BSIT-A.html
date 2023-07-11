@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>CJ Photography</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <style>
+    /* Add your custom CSS styles here */
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Montserrat', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: darkorange; /* Yellow */
+      color: #ffffff; /* White */
+    }
+
+    header {
+      background-color: brown; /* Orange */
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    header a {
+      color: #ffffff;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    header a:hover {
+      color: #90a5bf; /* Light Blue */
+    }
+
+    .logo {
+      font-size: 24px;
+    }
+
+    .hero {
+      background-image: url("hero-image.jpg");
+      background-size: cover;
+      background-position: center;
+      height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #ffffff;
+    }
+
+    .hero h2 {
+      font-size: 48px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+
+    section {
+      padding: 40px;
+      text-align: center;
+    }
+
+    h2 {
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    li {
+      width: 250px;
+      margin: 10px;
+      padding: 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      background-color: brown; /* Orange */
+    }
+
+    .cta-button {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: darkorange; /* Yellow */
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+
+    .cta-button:hover {
+      background-color: #90a5bf; /* Light Blue */
+    }
+
+    footer {
+      background-color: #FF5800; /* Orange */
+      color: #ffffff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+    }
+
+    .contact-info p {
+      margin: 10px 0;
+    }
+
+    .contact-info p span {
+      font-weight: bold;
+    }
+
+    .social-media a {
+      display: inline-block;
+      margin: 0 10px;
+      font-size: 24px;
+      color: #ffffff;
+      transition: transform 0.3s ease;
+      text-decoration: none;
+    }
+
+    .social-media a:hover {
+      transform: scale(1.2);
+    }
+
+    .social-media .fa-facebook {
+      color: #3b5998;
+    }
+
+    .social-media .fa-instagram {
+      color: #e4405f;
+    }
+
+    .social-media .fa-twitter {
+      color: #1da1f2;
+    }
+
+    .activity-image {
+      max-width: 100%;
+      height: 200px; /* Adjust the height as per your preference */
+      object-fit: cover;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/your-font-awesome-kit.js" crossorigin="anonymous" defer></script>
+  <script async src="script.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home">
+    <h2>Welcome to CJ Photography</h2>
+    <p>Elevate your brand with high-quality professional photography that showcases your products and services.</p>
+    <a href="#activities" class="cta-button">View Activities</a>
+  </section>
+
+  <section id="activities">
+    <h2>Our Activities</h2>
+    <ul class="activity-grid">
+      <li>
+        <img src="activity1.jpg" alt="Activity 1" class="activity-image">
+      </li>
+      <li>
+        <img src="activity2.jpg" alt="Activity 2" class="activity-image">
+      </li>
+      <li>
+        <img src="activity3.jpg" alt="Activity 3" class="activity-image">
+      </li>
+      <li>
+        <img src="activity4_1.jpg" alt="Activity 4" class="activity-image">
+        <li>
+          <img src="activity4_2.jpg" alt="Activity 4" class="activity-image">
+        </li>
+      </li>
+      <li>
+        <img src="activity5_1.jpg" alt="Activity 5 - Picture 1" class="activity-image">
+      </li>
+      <li>
+        <img src="activity5_2.jpg" alt="Activity 5 - Picture 2" class="activity-image">
+      </li>
+      <li>
+        <img src="activity6_1.png" alt="Activity 6 - Picture 1" class="activity-image">
+      </li>
+      <li>
+        <img src="activity6_2.png" alt="Activity 6 - Picture 2" class="activity-image">
+      </li>
+      <li>
+        <img src="activity7.jpg" alt="Activity 7" class="activity-image">
+      </li>
+    </ul>
+  </section>
+
+  <section id="video">
+    <h2>Activity 8 - Video</h2>
+    <div class="video-container">
+      <iframe width="800" height="450" src="https://www.veed.io/embed/28f53f31-34ae-4c80-8d81-680b85de8bf6" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </section>  
+
+  <section id="website">
+    <h2>Activity 9 - Website</h2>
+    <div class="activity-content">
+      <a href="#home" target="_blank" rel="noopener">
+        <img src="activity9.jpg" alt="Activity 9 - Website" class="activity-image">
+      </a>
+      <p>Click the image above to visit our activity website.</p>
+    </div>
+  </section>  
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="promo">
+      <ul>
+        <li>
+          <h3>Product Photography</h3>
+          <p>Showcase your products with professional product photography that highlights their unique features and boosts sales.</p>
+        </li>
+        <li>
+          <h3>Corporate Event Photography</h3>
+          <p>Capture the essence of your corporate events, conferences, and trade shows with our expert event photography services.</p>
+        </li>
+        <li>
+          <h3>Headshots and Portraits</h3>
+          <p>Create a lasting impression with professional headshots and portraits that reflect your business identity and professionalism.</p>
+        </li>
+        <li>
+          <h3>Architectural Photography</h3>
+          <p>Showcase your architectural designs, real estate properties, and interiors with captivating architectural photography.</p>
+        </li>
+        <li>
+          <h3>Marketing and Advertising Photography</h3>
+          <p>Enhance your marketing campaigns with impactful and eye-catching photography that resonates with your target audience.</p>
+        </li>
+        <li>
+          <h3>Company Branding Photography</h3>
+          <p>Build a strong brand identity through photography that captures the essence of your company's culture, values, and mission.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About CJ Photography</h2>
+    <p>Welcome to CJ Photography! We specialize in providing high-quality professional photography services for businesses of all sizes. Our team of experienced photographers understands the importance of visual communication in today's competitive market. Whether you need product photography to showcase your offerings, event photography to capture corporate moments, or headshots and portraits to enhance your professional image, we have the expertise to deliver exceptional results. With our creative approach and attention to detail, we aim to elevate your brand and help you make a lasting impression. Contact us today to discuss your photography needs and take your business visuals to the next level.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-info">
+      <p><i class="fas fa-map-marker-alt"></i> <span>Address:</span> Salomague Street, Ling, Pangasinan</p>
+      <p><i class="fas fa-phone"></i> <span>Phone:</span> 09464370696</p>
+      <p><i class="fas fa-envelope"></i> <span>Email:</span> info@cjphotography.com</p>
+    </div>
+    <p>We'd love to hear from you! Reach out to us for inquiries, bookings, or any other information.</p>
+    <a href="mailto:info@cjphotography.com" class="cta-button">Send Email</a>
+    <p>Follow us on social media to stay updated:</p>
+    <div class="social-media">
+      <a href="#" class="fab fa-facebook"></a>
+      <a href="#" class="fab fa-instagram"></a>
+      <a href="#" class="fab fa-twitter"></a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2023 CJ Photography. All rights reserved.</p>
+  </footer>
+</body>
+</html>
